@@ -1,0 +1,8 @@
+.header {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #008dda;
+  position: fixed;
+  color: white;
+  margin-top: -50px;
+}
