@@ -30,7 +30,7 @@ function App() {
 const [limit, setLimit]= useState<number>(10)
 const [total, setTotal]= useState<number>(10)
 
-async function getData(limit:number, page:number) {
+async function getData(limit:number, _:number) {
   try {
     const resp = await fetch(`http://localhost:3000/machines?limit=${limit}&page=${currentPage}`)
     const data: ResponseType = await resp.json()
